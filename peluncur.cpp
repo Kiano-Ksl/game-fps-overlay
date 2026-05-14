@@ -2,7 +2,7 @@
 #include <tlhelp32.h>
 #include <iostream>
 #include <vector>
-#include <fstream>
+#include <fstream> 
 
 DWORD CariIDProses(const char* namaExe) {
     DWORD idProses = 0;
@@ -72,7 +72,7 @@ int main() {
 
         if (!adaGameNyala && idGameTerakhir != 0) {
             std::cout << "[-] Game ditutup. Mereset angka FPS ke '--'..." << std::endl;
-            idGameTerakhir = 0; 
+            idGameTerakhir = 0; // Lupakan ID lama
 
             std::ofstream fileData(jalurFileData);
             if (fileData.is_open()) {
