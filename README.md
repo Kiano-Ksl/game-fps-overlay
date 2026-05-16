@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![Language](https://img.shields.io/badge/Language-C++-orange)
 
-Sebuah program pemantau FPS (*Frames Per Second*) yang sangat ringan. Program ini dirancang dengan bahasa C++ murni untuk berjalan di latar belakang (siluman) dan menyuntikkan *overlay* angka FPS langsung ke dalam game yang menggunakan mesin DirectX 11. 
+Sebuah program pemantau FPS (*Frames Per Second*) yang sangat ringan. Program ini dirancang dengan bahasa C++ murni untuk berjalan di latar belakang dan menyuntikkan *overlay* angka FPS langsung ke dalam game yang menggunakan mesin DirectX 11. 
 
 Berbeda dengan aplikasi *monitoring* berat lainnya, program ini menggunakan jendela transparan (*click-through*) yang bersih, ringkas, dan memakan **0% CPU Usage** saat *idle*.
 
