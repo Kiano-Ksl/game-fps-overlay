@@ -1,4 +1,4 @@
-# 🎯 FPS Counter Overlay (DirectX 11 Hooking)
+# FPS Counter Overlay (DirectX 11 Hooking)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![Language](https://img.shields.io/badge/Language-C++-orange)
@@ -7,12 +7,12 @@ Sebuah program pemantau FPS (*Frames Per Second*) yang sangat ringan. Program in
 
 Berbeda dengan aplikasi *monitoring* berat lainnya, program ini menggunakan jendela transparan (*click-through*) yang bersih, ringkas, dan memakan **0% CPU Usage** saat *idle*.
 
-## ✨ Fitur Utama
+## Fitur Utama
 *   **🪟 Layar Kaca Transparan:** Angka FPS melayang di pojok layar tanpa mengganggu klik mouse kamu saat bermain game.
 *   **🎯 Target Spesifik:** Program hanya akan menyuntikkan agen ke game yang sudah kamu daftarkan secara spesifik.
 *   **🪶 Sangat Ringan:** Kode sumber telah dibersihkan dan dioptimalkan agar berjalan cepat tanpa beban sistem tambahan.
 
-## 🛠️ Teknologi yang Dipakai
+## Teknologi yang Dipakai
 *   **C++** (Core Programming Language)
 *   **Windows API** (Pembuatan jendela transparan & Process Management)
 *   **MinHook** (Library untuk API Hooking)
@@ -33,7 +33,7 @@ Berbeda dengan aplikasi *monitoring* berat lainnya, program ini menggunakan jend
 1. OS Windows (10 atau 11).
 2. **MinGW (g++)** compiler terinstal dan terdaftar di *Environment Variables*.
 
-## 🚀 Panduan Instalasi & Kompilasi
+## Panduan Instalasi & Kompilasi
 
 ### 1. Download & Konfigurasi
 Clone repository ini, lalu buka file `peluncur.cpp`. Masukkan nama file `.exe` game yang ingin kamu pantau ke dalam daftar berikut:
