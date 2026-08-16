@@ -8,9 +8,9 @@ Sebuah program pemantau FPS (*Frames Per Second*) yang sangat ringan. Program in
 Berbeda dengan aplikasi *monitoring* berat lainnya, program ini menggunakan jendela transparan (*click-through*) yang bersih, ringkas, dan memakan **0% CPU Usage** saat *idle*.
 
 ## Fitur Utama
-*   **🪟 Layar Kaca Transparan:** Angka FPS melayang di pojok layar tanpa mengganggu klik mouse kamu saat bermain game.
-*   **🎯 Target Spesifik:** Program hanya akan menyuntikkan agen ke game yang sudah kamu daftarkan secara spesifik.
-*   **🪶 Sangat Ringan:** Kode sumber telah dibersihkan dan dioptimalkan agar berjalan cepat tanpa beban sistem tambahan.
+*   ** Layar Kaca Transparan:** Angka FPS melayang di pojok layar tanpa mengganggu klik mouse kamu saat bermain game.
+*   ** Target Spesifik:** Program hanya akan menyuntikkan agen ke game yang sudah kamu daftarkan secara spesifik.
+*   ** Sangat Ringan:** Kode sumber telah dibersihkan dan dioptimalkan agar berjalan cepat tanpa beban sistem tambahan.
 
 ## Teknologi yang Dipakai
 *   **C++** (Core Programming Language)
@@ -29,7 +29,7 @@ Berbeda dengan aplikasi *monitoring* berat lainnya, program ini menggunakan jend
  ┗ 📜 peluncur.cpp     # Source code: Penyuntik otomatis ke dalam game
 ```
 
-## ⚙️ Persyaratan Sistem
+## Persyaratan Sistem
 1. OS Windows (10 atau 11).
 2. **MinGW (g++)** compiler terinstal dan terdaftar di *Environment Variables*.
 
@@ -58,7 +58,7 @@ g++ layar_fps.cpp -o layar_fps.exe -lgdi32
 g++ peluncur.cpp -o peluncur.exe
 ```
 
-## 🎮 Cara Penggunaan
+## Cara Penggunaan
 1. Buka file **`layar_fps.exe`** (Akan muncul teks FPS di pojok layar).
 2. Klik kanan pada **`peluncur.exe`** lalu pilih **Run as Administrator**.
 3. Buka game yang sudah kamu daftarkan tadi. Angka FPS akan otomatis muncul dan ter-*update*!
