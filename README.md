@@ -7,11 +7,6 @@ Sebuah program pemantau FPS (*Frames Per Second*) yang sangat ringan. Program in
 
 Berbeda dengan aplikasi *monitoring* berat lainnya, program ini menggunakan jendela transparan (*click-through*) yang bersih, ringkas, dan memakan **0% CPU Usage** saat *idle*.
 
-## Fitur Utama
-*   ** Layar Kaca Transparan:** Angka FPS melayang di pojok layar tanpa mengganggu klik mouse kamu saat bermain game.
-*   ** Target Spesifik:** Program hanya akan menyuntikkan agen ke game yang sudah kamu daftarkan secara spesifik.
-*   ** Sangat Ringan:** Kode sumber telah dibersihkan dan dioptimalkan agar berjalan cepat tanpa beban sistem tambahan.
-
 ## Teknologi yang Dipakai
 *   **C++** (Core Programming Language)
 *   **Windows API** (Pembuatan jendela transparan & Process Management)
